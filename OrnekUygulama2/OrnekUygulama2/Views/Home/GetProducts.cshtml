@@ -1,0 +1,12 @@
+﻿@*@model OrnekUygulama2.Models.ViewModel.UserProduct
+
+<h3>@Model.Product.ProductName</h3>
+<h3>@Model.User.Name</h3>
+<h3>@Model.User.LastName</h3>*@
+
+@model (OrnekUygulama2.Models.Product  p , OrnekUygulama2.Models.User u) 
+
+<h3>@Model.p.ProductName</h3>
+<h3>@Model.u.Name</h3>
+<h3>@Model.u.LastName</h3>
+ 
